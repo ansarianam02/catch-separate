@@ -139,6 +139,8 @@
    document.getElementById("instructionbutton").onclick = function () { 
         //window.location = "/main.html";
         //any  redirect 
+        var name = document.getElementById("playername").value ; 
+        localStorage.setItem('alpen-player',name);
     };
 </script>
 
