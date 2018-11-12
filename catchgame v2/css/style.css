@@ -142,7 +142,7 @@ h2 {font-size: 24px; margin-bottom: 10px;}
   font-size: 15px;
   text-transform: uppercase;
 }
-#intro button,  #characters button, .characters button {
+#intro button,  #characters button, .characters button ,#intro a#instructionbutton{
   display: block;
   width: 100%;
   font-size: 1em;
@@ -468,6 +468,6 @@ span#finalreportcatch::before {
     display: inline-block;
     height: 25px;
     width: 30px;
-    left: 4em;
+    left: 2em;
     top: 0.2em;
 }
