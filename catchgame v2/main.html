@@ -290,7 +290,7 @@ if (  t.id === 'replay' || t.id === 'playbutton' ) {
 //remove first firstbg class
 var element = document.getElementById("container");
 //set player name in game
-namedisplay.innerHTML = document.getElementById("playername").value || 'Guest';
+namedisplay.innerHTML = localStorage.getItem('alpen-player') || 'Guest';
     element.classList.remove("firstbg");
     
  totalCatchCount=0,chance=0,fps = 50,renderSpeed =1200 ; startgame(); }
